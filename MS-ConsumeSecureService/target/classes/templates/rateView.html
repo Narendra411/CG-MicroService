@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<title>Config Client</title>
+
+</head>
+<body>
+	<div class="row">
+		<div class="col-md-2"></div>
+		<div class="col-md-8">
+			<h1>Spring Cloud Config Client</h1>
+			<p
+				th:text="'Your rate is: ' + ${rate} + ', number of lanes is ' + ${laneCount} + ', toll start time is ' + ${tollStart}+ ' ' " />
+		</div>
+		<div class="col-md-2"></div>
+	</div>
+</body>
+</html>
